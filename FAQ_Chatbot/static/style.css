@@ -1,0 +1,31 @@
+.chat-window {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  height: 400px;
+  overflow-y: auto;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color: blueviolet;
+  color: white;
+}
+
+.message.bot {
+  align-self: flex-start;
+  background-color: rgba(255, 255, 255, 0.692);
+  color: black;
+}

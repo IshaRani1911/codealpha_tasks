@@ -1,0 +1,358 @@
+[
+  {
+    "question": "What are your store timings?",
+    "answer": "We are open from 9 AM to 9 PM, Monday to Saturday."
+  },
+  {
+    "question": "How can I track my order?",
+    "answer": "You can track your order using the tracking link sent to your email after purchase."
+  },
+  {
+    "question": "What is your return policy?",
+    "answer": "You can return any product within 7 days of delivery for a full refund."
+  },
+  {
+    "question": "Do you offer cash on delivery?",
+    "answer": "Yes, cash on delivery is available for orders within India."
+  },
+  {
+    "question": "How do I contact customer support?",
+    "answer": "You can reach our support team at support@example.com or call 1800-123-4567."
+  },
+  {
+    "question": "What is this chatbot?",
+    "answer": "This chatbot answers questions using stored FAQs."
+  },
+  {
+    "question": "What is NLP?",
+    "answer": "NLP means Natural Language Processing. It helps computers understand human language."
+  },
+  {
+    "question": "How does this chatbot work?",
+    "answer": "It matches your question with stored FAQs using similarity matching."
+  },
+  {
+    "question":"Can this chatbot answer every question?",
+    "answer":"No. It can answer only questions available in its FAQ dataset."
+  },
+  {
+    "question":"what is artificial intelligence?",
+    "answer":"Artificial Intelligence (AI) is the simulation of human intelligence by computers and machines. "
+  },
+  {
+    "question": "What is AI?",
+    "answer": "AI stands for Artificial Intelligence. It enables computers to perform tasks that normally require human intelligence."
+  },
+  {
+    "question": "What is this chatbot?",
+    "answer": "This chatbot answers frequently asked questions using similarity matching."
+  },
+  {
+    "question": "What is AI?",
+    "answer": "AI (Artificial Intelligence) is the simulation of human intelligence in machines that can learn, reason, and solve problems."
+  },
+  {
+    "question": "What is Machine Learning?",
+    "answer": "Machine Learning is a branch of AI that enables computers to learn patterns from data without being explicitly programmed."
+  },
+  {
+    "question": "What is Deep Learning?",
+    "answer": "Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers to learn complex patterns."
+  },
+  {
+    "question": "What is NLP?",
+    "answer": "Natural Language Processing (NLP) enables computers to understand, interpret, and generate human language."
+  },
+  {
+    "question": "What is Python?",
+    "answer": "Python is a high-level, easy-to-learn programming language widely used in web development, AI, data science, and automation."
+  },
+  {
+    "question": "Why is Python popular?",
+    "answer": "Python is popular because of its simple syntax, extensive libraries, and versatility across many fields."
+  },
+  {
+    "question": "What is Flask?",
+    "answer": "Flask is a lightweight Python web framework used to build web applications and APIs."
+  },
+  {
+    "question": "What is Django?",
+    "answer": "Django is a powerful Python web framework that follows the Model-View-Template architecture."
+  },
+  {
+    "question": "What is HTML?",
+    "answer": "HTML (HyperText Markup Language) is used to structure the content of web pages."
+  },
+  {
+    "question": "What is CSS?",
+    "answer": "CSS (Cascading Style Sheets) is used to style and design web pages."
+  },
+  {
+    "question": "What is JavaScript?",
+    "answer": "JavaScript is a programming language used to make web pages interactive."
+  },
+  {
+    "question": "What is a database?",
+    "answer": "A database is an organized collection of data that can be stored, managed, and retrieved efficiently."
+  },
+  {
+    "question": "What is SQL?",
+    "answer": "SQL (Structured Query Language) is used to manage and query relational databases."
+  },
+  {
+    "question": "What is an API?",
+    "answer": "An API (Application Programming Interface) allows different software applications to communicate with each other."
+  },
+  {
+    "question": "What is Git?",
+    "answer": "Git is a version control system used to track changes in source code."
+  },
+  {
+    "question": "What is GitHub?",
+    "answer": "GitHub is a cloud platform that hosts Git repositories and helps developers collaborate."
+  },
+  {
+    "question": "What is version control?",
+    "answer": "Version control is a system that records changes to files so previous versions can be restored."
+  },
+  {
+    "question": "What is cloud computing?",
+    "answer": "Cloud computing is the delivery of computing services like storage, databases, and servers over the internet."
+  },
+  {
+    "question": "What is cybersecurity?",
+    "answer": "Cybersecurity is the practice of protecting computers, networks, and data from cyber attacks."
+  },
+  {
+    "question": "What is data science?",
+    "answer": "Data Science is the field of extracting meaningful insights from data using statistics, programming, and machine learning."
+  },
+  {
+    "question": "What is a programming language?",
+    "answer": "A programming language is a formal language used to write instructions that computers can execute."
+  },
+  {
+    "question": "What is an algorithm?",
+    "answer": "An algorithm is a step-by-step procedure for solving a problem or performing a task."
+  },
+  {
+    "question": "What is a data structure?",
+    "answer": "A data structure is a way of organizing and storing data efficiently."
+  },
+  {
+    "question": "What is Object-Oriented Programming?",
+    "answer": "Object-Oriented Programming (OOP) is a programming paradigm based on objects, classes, inheritance, polymorphism, encapsulation, and abstraction."
+  },
+  {
+    "question": "What is a function?",
+    "answer": "A function is a reusable block of code that performs a specific task."
+  },
+  {
+    "question": "What is a variable?",
+    "answer": "A variable is a named storage location used to store data in a program."
+  },
+  {
+    "question": "What is a loop?",
+    "answer": "A loop is a programming construct used to repeat a block of code multiple times."
+  },
+  {
+    "question": "What is debugging?",
+    "answer": "Debugging is the process of identifying and fixing errors or bugs in a program."
+  },
+  {
+    "question": "What is software development?",
+    "answer": "Software development is the process of designing, coding, testing, and maintaining software applications."
+  },
+  {
+    "question": "What is frontend development?",
+    "answer": "Frontend development focuses on creating the user interface of websites using HTML, CSS, and JavaScript."
+  },
+  {
+    "question": "What is backend development?",
+    "answer": "Backend development focuses on server-side logic, databases, and APIs."
+  },
+  {
+    "question": "What is full-stack development?",
+    "answer": "Full-stack development involves working on both frontend and backend parts of a web application."
+  },
+  {
+    "question": "What is responsive web design?",
+    "answer": "Responsive web design ensures websites work well on desktops, tablets, and mobile devices."
+  },
+  {
+    "question": "What is an operating system?",
+    "answer": "An operating system manages computer hardware and software resources and provides services for applications."
+  },
+  {
+    "question": "What is Linux?",
+    "answer": "Linux is an open-source operating system widely used for servers, cloud computing, and software development."
+  },
+  {
+    "question": "What is Windows?",
+    "answer": "Windows is an operating system developed by Microsoft for personal and business computers."
+  },
+  {
+    "question": "What is RAM?",
+    "answer": "RAM (Random Access Memory) is temporary memory used by a computer to store data currently in use."
+  },
+  {
+    "question": "What is a CPU?",
+    "answer": "The CPU (Central Processing Unit) is the primary component responsible for executing instructions in a computer."
+  },
+  {
+    "question": "What is the Internet?",
+    "answer": "The Internet is a global network that connects millions of computers and devices."
+  },
+  {
+    "question": "What is Wi-Fi?",
+    "answer": "Wi-Fi is a wireless networking technology that allows devices to connect to the internet."
+  },
+  {
+    "question": "How does this chatbot work?",
+    "answer": "The chatbot compares your question with stored FAQs using text similarity and returns the closest matching answer."
+  },
+  {
+    "question": "Can this chatbot answer every question?",
+    "answer": "No. It can only answer questions that are similar to the FAQs stored in its dataset."
+  },
+  {
+    "question": "Can I add more FAQs?",
+    "answer": "Yes. You can simply add more question-answer pairs to the FAQ dataset to expand the chatbot's knowledge."
+  },
+  {
+    "question": "Who created this chatbot?",
+    "answer": "This chatbot was developed as an NLP-based FAQ chatbot project using Python and Flask."
+  },
+  {
+    "question": "Hello",
+    "answer": "Hello! Welcome to the FAQ Chatbot. How can I help you today?"
+  },
+  {
+    "question": "Hi",
+    "answer": "Hi! I'm here to answer your questions. What would you like to know?"
+  },
+  {
+    "question": "Hey",
+    "answer": "Hey! How can I assist you today?"
+  },
+  {
+    "question": "Good morning",
+    "answer": "Good morning! Hope you're having a great day. How can I help?"
+  },
+{
+    "question": "Good afternoon",
+    "answer": "Good afternoon! How may I assist you?"
+},
+{
+    "question": "Good evening",
+    "answer": "Good evening! What can I do for you today?"
+},
+{
+    "question": "How are you?",
+    "answer": "I'm doing great, thank you for asking! How can I help you today?"
+},
+{
+    "question": "How are you doing?",
+    "answer": "I'm doing well! I'm ready to answer your questions."
+},
+{
+    "question": "What's up?",
+    "answer": "Not much! I'm here and ready to help you."
+},
+{
+    "question": "Who are you?",
+    "answer": "I'm an FAQ chatbot designed to answer common questions using Natural Language Processing."
+},
+{
+    "question": "What is your name?",
+    "answer": "I'm your FAQ Chatbot. You can call me ChatBot!"
+},
+{
+    "question": "Can you introduce yourself?",
+    "answer": "Sure! I'm an AI-powered FAQ chatbot built using Python and Flask. I answer questions based on a predefined FAQ dataset."
+},
+{
+    "question": "What can you do?",
+    "answer": "I can answer frequently asked questions related to technology, programming, AI, and other topics stored in my FAQ database."
+},
+{
+    "question": "How can you help me?",
+    "answer": "I can provide answers to common questions and help you learn basic concepts quickly."
+},
+{
+    "question": "Are you a human?",
+    "answer": "No, I'm a chatbot created to answer questions automatically."
+},
+{
+    "question": "Are you a robot?",
+    "answer": "You can think of me as a virtual assistant or chatbot, not a physical robot."
+},
+{
+    "question": "Who created you?",
+    "answer": "I was created as an FAQ chatbot project using Python, Flask, and NLP techniques."
+},
+{
+    "question": "Thank you",
+    "answer": "You're welcome! Happy to help."
+},
+{
+    "question": "Thanks",
+    "answer": "You're welcome! Feel free to ask if you have more questions."
+},
+{
+    "question": "Thank you so much",
+    "answer": "You're very welcome! I'm always here to help."
+},
+{
+    "question": "Bye",
+    "answer": "Goodbye! Have a wonderful day."
+},
+{
+    "question": "Goodbye",
+    "answer": "Goodbye! Take care and visit again."
+},
+{
+    "question": "See you later",
+    "answer": "See you later! Have a great day."
+},
+{
+    "question": "Nice to meet you",
+    "answer": "Nice to meet you too! How can I help you today?"
+},
+{
+    "question": "Can you help me?",
+    "answer": "Of course! Ask me anything related to the FAQs I know."
+},
+{
+    "question": "I need help",
+    "answer": "Sure! Tell me what you'd like to know, and I'll do my best to help."
+},
+{
+    "question": "What topics do you know?",
+    "answer": "I can answer questions about AI, Python, web development, programming, databases, networking, and other topics included in my FAQ dataset."
+},
+{
+    "question": "What is your purpose?",
+    "answer": "My purpose is to answer frequently asked questions quickly and accurately."
+},
+{
+    "question": "Can you answer all questions?",
+    "answer": "Not all. I can answer questions that are available in my FAQ database or are similar to them."
+},
+{
+    "question": "How do you work?",
+    "answer": "I compare your question with stored FAQs and return the most relevant answer."
+},
+{
+    "question": "Who made this project?",
+    "answer": "This project was developed using Python, Flask, HTML, CSS, JavaScript, and NLP-based similarity matching."
+},
+{
+    "question": "Tell me about yourself",
+    "answer": "I'm an FAQ chatbot that helps users by answering common questions using a predefined knowledge base."
+},
+{
+    "question": "Can we chat?",
+    "answer": "Absolutely! Ask me a question, and I'll try my best to answer it."
+}
+]

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chatbot for FAQs</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <div class="title-section">
+      <h1 id="title">FAQs Chatbot</h1>
+    </div>
+
+    <div class="chat-window" id="chatWindow">
+      <!-- Chat messages will appear here dynamically -->
+    </div>
+
+    <div class="chat-section">
+      <textarea class="text-box" id="inputText" placeholder="Type your question..."></textarea>
+      <button id="sendBtn" type="button">Send</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

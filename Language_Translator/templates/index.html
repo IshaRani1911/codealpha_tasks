@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Language Translator Tool</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-section">
+            <h1 id="title">AI Language Translator</h1> 
+        </div>
+        <div class="form-section">
+            <form action="/translate" method="POST">
+                <div class="text-section">
+                    <textarea class="text-box" id="inputText" name="inputText" placeholder="Enter Text Here">{{text}}</textarea>
+                </div>
+                <div class="language-section">
+                    <div class="language-box">
+                        <label class="label" for="sourceLanguage">Select SOURCE LANGUAGE </label>
+                        <select id="sourceLanguage" name="sourceLanguage">
+                            <option value="" selected disabled>Select Language</option>
+                            <option value="en"{% if source=="en" %}selected{% endif %}>English</option>
+                            <option value="hi"{% if source=="hi" %}selected{% endif %}>Hindi</option>
+                            <option value="pa"{% if source=="pa" %}selected{% endif %}>Punjabi</option>
+                            <option value="mr"{% if source=="mr" %}selected{% endif %}>Marathi</option>
+                            <option value="te"{% if source=="te" %}selected{% endif %}>Telugu</option>
+                            <option value="ur"{% if source=="ur" %}selected{% endif %}>Urdu</option>
+                            <option value="be"{% if source=="be" %}selected{% endif %}>Bengali</option>
+                            <option value="gu"{% if source=="gu" %}selected{% endif %}>Gujrati</option>
+                            <option value="ks"{% if source=="ks" %}selected{% endif %}>Kashmiri</option>
+                            <option value="sa"{% if source=="sa" %}selected{% endif %}>Sanskrit</option>
+                        </select>  
+                    </div>
+                    <div class="language-box">
+                        <label class="label" for="targetLanguage">Select TARGET LANGUAGE </label> 
+                        <select id="targetLanguage" name="targetLanguage">
+                            <option value="" selected disabled>Select Language</option>
+                            <option value="hi"{% if target=="hi" %}selected{% endif %}>Hindi</option>
+                            <option value="en"{% if target=="en" %}selected{% endif %}>English</option>
+                            <option value="pa"{% if target=="pa" %}selected{% endif %}>Punjabi</option>
+                            <option value="mr"{% if target=="mr" %}selected{% endif %}>Marathi</option>
+                            <option value="te"{% if target=="te" %}selected{% endif %}>Telugu</option>
+                            <option value="ur"{% if target=="ur" %}selected{% endif %}>Urdu</option>
+                            <option value="be"{% if target=="be" %}selected{% endif %}>Bengali</option>
+                            <option value="gu"{% if target=="gu" %}selected{% endif %}>Gujrati</option>
+                            <option value="ks"{% if target=="ks" %}selected{% endif %}>Kashmiri</option>
+                            <option value="sa"{% if target=="sa" %}selected{% endif %}>Sanskrit</option>
+                        </select> 
+                    </div>
+                </div>
+                <div class="button-section">
+                    <button id="translateBtn" type="submit">TRANSLATE</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-section">
+            
+            <div class="text-section">
+                <textarea class="text-box" id="outputText" name="outputText" readonly placeholder="Translated Text">{{result}}</textarea>
+            </div>
+                
+            <input
+                type="hidden"
+                id="targetLanguageHidden"
+                name="targetLanguage"
+                value="{{target}}"
+            >
+        
+            <div class="translated-btns">
+                <button id="copyBtn" class="translatedbtns" type="button">copy</button>
+        
+                <button id="speakBtn" name="speakBtn" class="translatedbtns" type="button">speak</button>
+            </div>
+            
+        </div>
+    </div>  
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

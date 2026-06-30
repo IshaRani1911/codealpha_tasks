@@ -1,0 +1,97 @@
+body{
+    background-color:#f5f7fa;
+}
+#title{
+    color:blueviolet;
+    font-size:40px;
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:20px;  
+    font-family: Arial, sans-serif;
+}
+.label{
+    color: black;
+    font-size: 16px;
+    font-weight:bold;
+    display:block;
+}
+.text-box{
+    background-color: white;
+    font-size:16px;
+    width:100%;
+    max-width:400px;
+    height: 200px;
+    padding: 10px;
+    text-align: left;  
+}
+#sourceLanguage{
+    color: black;
+    margin: 10px;
+}
+#targetLanguage{
+    color: black;
+    margin: 10px;
+}
+#translateBtn{
+    background-color: rgb(4, 186, 247);
+    color: white;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius:8px;
+    text-align: center;
+    cursor:pointer;
+    padding:10px 25px;
+    font-size:16px;
+    border:none;
+}
+#translateBtn:hover{
+    background-color: rgb(2,160,210);
+}
+.language-section{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    max-width:900px;
+    width:90%;
+    margin:0 auto;
+}
+.button-section{
+    text-align:center;
+    margin:20px 0;
+}
+select{
+    width:180px;
+    padding:8px;
+    font-size:15px;
+}
+.text-section{
+    text-align:center;
+    margin:20px 0;
+}
+.translatedbtns{
+    background-color: rgb(4, 186, 247);
+    color: white;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius:8px;
+    text-align: center;
+    cursor:pointer;
+    padding:10px 25px;
+    font-size:16px;
+    border:none;
+}
+
+.translatedbtns:hover{
+    background-color: rgb(2,160,210);
+}
+
+.translated-btns{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+}
